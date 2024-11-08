@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: hsl(212, 72%, 59%); 
+}
+
+body {
+    background-color: hsl(0, 0%, 96%); 
+    font-family: Arial, sans-serif;
+}
+
+.Product > img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    border-bottom: hsl(212, 72%, 59%) 3px solid; 
+}
+.card{
+    display: flex;
+}
+.Product {
+    border: 2px solid hsl(212, 72%, 59%); 
+    border-radius: 20px;
+    width: 24%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px blue; 
+    background-color: hsl(0, 0%, 100%); 
+}
+
+span {
+    color: red; 
+}
+
+button {
+    color: #FFF;
+    background-color: hsl(212, 72%, 59%); 
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: hsl(210, 56%, 47%);
+} 
